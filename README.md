@@ -3,11 +3,10 @@ A project created to evaluate RMSE score for a given time series dataset with 10
 
 ## Overview 
 
-Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting is the use of a model to predict future values based on previously observed values. While regression analysis is often employed in such a way as to test relationships between one or more different time series, this type of analysis is not usually called "time series analysis", which refers in particular to relationships between different points in time within a single series.
+In this Project, I aim to predict Para 9-13 for the 10th year in the dataset regarding road parameters for various sections using Para 1-10 and previous year data.
+I have used XGBoost Regressor model with  250 estimators and also applied the  LASSO (L1) and Ridge (L2) regularization to prevent overfitting. 
 
-In this Project, I aim to predict Para 9-13 for the 10th year in the dataset regarding road parameters for various sections using Para 1-10 and previous year data.I have used XGBoost Regressor with  250 estimators and also applied the regularisation for removing overfitting.
-
-Calculated overall Root Mean Square Error for the model which is 9.106. 
+Evaluation metric that is used is Root Mean Square Error and overall  calculated Root Mean Square Error for the model which is 9.106. 
 
 ## Model 
 XGBoost Regressor.
