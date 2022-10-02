@@ -15,16 +15,16 @@ XGBoost Regressor.
 ## Outputs
 
 ### Samples Directory
- A Directory named samples which consists of segregated pre processed samples of 10 years in .csv format
+A directory named samples which consists of segregated pre processed samples of 10 years in .csv format
 
 ### Comparisons Directory
-a folder named comparisons which include comparison of each output for Para 9-13 where:
+A directory named comparisons which include comparison of each output for Para 9-13 where:
 1) First row denotes the **Actual** output
 2) Second row denotes the **Predicted** output
 3) Third row denotes the **RMSE Error**
 
 ### Graphs Directory
-Creates a folder named graphs which include comparison of actual vs predicted in graphical format for Para 9-13.
+A directory named graphs which include comparison of actual vs predicted in graphical format for Para 9-13.
 
 ### RMSE
 The overall Root Mean Square Error for the model which is 9.106.
