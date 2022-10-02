@@ -14,16 +14,14 @@ XGBoost Regressor.
 
 ## Outputs
 
-### Samples Directory
-A directory named samples which consists of segregated pre processed samples of 10 years in .csv format
+### Samples , Comparisons and Graphs Directory
+A directory named samples which consists of segregated pre processed samples of 10 years in .csv format.
 
-### Comparisons Directory
 A directory named comparisons which include comparison of each output for Para 9-13 where:
 1) First row denotes the **Actual** output
 2) Second row denotes the **Predicted** output
 3) Third row denotes the **RMSE Error**
 
-### Graphs Directory
 A directory named graphs which include comparison of actual vs predicted in graphical format for Para 9-13.
 
 ### RMSE
